@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pixx_skyblock_api',
-    version='0.2',
+    name='psd_patcher',
+    version='0.1',
     packages=find_packages(),
     install_requires=[
-        'py-cord', 'aiohttp', 'pillow', 'requests'
+        'py-cord'
     ],
 )
